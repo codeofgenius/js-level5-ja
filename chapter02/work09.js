@@ -2,22 +2,27 @@
 // thisの取り扱いの問題点
 // オブジェクトとメソッドの定義
 const person = {
-    name : 'Bob',
-    sayName: function(message) {
+    name: 'Bob',
+    showName: function (message) {
         // thisは呼び出し元によって異なる
         console.log(`${message}, ${this.name}`);
-    }
+    },
 };
 
-// sayNameメソッドはpersonオブジェクトに所属する
+// showNameメソッドはpersonオブジェクトに所属する
 // thisはpersonオブジェクト
 // Hello, Bob
-person.sayName('Hello');
+person.showName('Hello');
 
-// person.sayNameをsay変数に代入する
-const say = person.sayName;
+// person.showNameをshow変数に代入する
+const show = person.showName;
 
 // bindを利用してthisの値を指定する
-const hello = say.bind(person);
+const hello = show.bind(person);
 // Hello, Bob
 hello('Hello');
+
+/*
+// 以下のように呼ぶと、Hello, undefinedになる
+show('Hello');
+*/
