@@ -2,8 +2,8 @@
 try {
     console.log('通常処理');
     // ここでエラー発生
-    tekito();
+    unknownFunction();
     console.log('その後の処理');
-} catch(error) {
+} catch (error) {
     console.log('エラー発生');
 }

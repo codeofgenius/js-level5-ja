@@ -1,11 +1,11 @@
-// try-catch-finally文1
+// throw文2
 try {
     console.log('通常処理');
     // ここでエラー発生
-    unknownFunction();
+    throw new Error('ここで独自エラー発生');
     console.log('その後の処理');
 } catch (error) {
-    console.log('エラー発生');
+    console.log(error);
 } finally {
     console.log('最終処理');
 }

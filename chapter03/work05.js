@@ -1,14 +1,10 @@
-// 代表的なエラー
+// throw文1
 try {
     console.log('通常処理');
-    // TypeError
-    const data = [2,4,5,8];
-    data();
-    
-    // ReferenceError
-    // tekito();
+    // ここでエラー発生
+    throw 'ここで独自エラー発生';
     console.log('その後の処理');
-} catch(error) {
+} catch (error) {
     console.log(error);
 } finally {
     console.log('最終処理');

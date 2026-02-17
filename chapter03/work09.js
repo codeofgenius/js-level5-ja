@@ -1,11 +1,13 @@
-// try-catch-finally文1
+// TypeError
 try {
     console.log('通常処理');
-    // ここでエラー発生
-    unknownFunction();
+    const numbers = [2, 4, 5, 7];
+    // TypeError
+    numbers();
     console.log('その後の処理');
 } catch (error) {
-    console.log('エラー発生');
+    console.log(error.name);
+    console.log(error.message);
 } finally {
     console.log('最終処理');
 }
