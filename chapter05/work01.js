@@ -1,7 +1,6 @@
-// 通常の関数　2個の引数
-function add( num1, num2) {
-    return num1 + num2;
-}
+// CJSでインポート
+// hello01.jsを読み込み
+const sayHello = require('./lib/hello01');
 
-// 2個の引数は必須
-console.log(add(5,2));
+// 関数の呼び出し
+sayHello('Alice');
