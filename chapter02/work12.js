@@ -22,7 +22,6 @@ bindメソッドの呼び出し部分以外（既存のオブジェクト定義�
 // オブジェクトTaxCalculatorが定義されています
 const TaxCalculator = {
     price: 200,
-    currencySymbol: '￥',
     calculate: function (taxRate) {
         return Math.floor(this.price * (1 + taxRate));
     },
