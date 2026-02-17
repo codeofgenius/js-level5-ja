@@ -1,15 +1,15 @@
 // オブジェクトをJSON文字列に変換
 // JavaScriptのオブジェクトを作成
 const jsObject = {
-    user1 : {
-        name : 'Bob',
-        age : 15,
-        hobby : ['music', 'tennis', 'travel'],
+    user1: {
+        name: 'Bob',
+        age: 17,
+        hobby: ['music', 'tennis', 'travel'],
     },
-    user2 : {
-        name : 'Buzz',
-        age : 14,
-        hobby : ['baseball', 'running'],
+    user2: {
+        name: 'Tom',
+        age: 16,
+        hobby: ['baseball', 'running'],
     },
 };
 
@@ -17,4 +17,4 @@ const jsObject = {
 const stringJson = JSON.stringify(jsObject);
 
 // 文字列を表示
-console.log( stringJson );
+console.log(stringJson);

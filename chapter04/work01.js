@@ -3,22 +3,21 @@
 const stringJson = `{
     "user1": {
         "name" : "Bob",
-        "age" : 15,
+        "age" : 17,
         "hobby" : ["music", "tennis", "travel"]
     },
     "user2": {
-        "name" : "Buzz",
-        "age" : 14,
+        "name" : "Tom",
+        "age" : 16,
         "hobby" : ["baseball", "running"]
     }
 }`;
 
 // 文字列を表示
-console.log( stringJson );
-console.log( '--------' );
+console.log(stringJson);
 
 // JSON文字列をJavaScriptのオブジェクトに変換
 const jsObject = JSON.parse(stringJson);
 
 // JavaScriptのオブジェクトを表示
-console.log( jsObject );
+console.log(jsObject);
