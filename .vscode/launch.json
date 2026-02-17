@@ -6,6 +6,7 @@
             "name": "Launch Program",
             "request": "launch",
             "program": "${file}",
+            "console": "integratedTerminal",
             "skipFiles": ["<node_internals>/**"]
         }
     ]
