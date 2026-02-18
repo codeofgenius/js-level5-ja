@@ -1,11 +1,11 @@
 /*
-ワーク05_練習問題
+ワーク05_最終問題
 
 以下のようなプログラムがありますが、未完成です。
 
 getPlayerName、getHero、getMagicianという3個の
-関数を呼び出していますが、このファイルには、これらの
-関数を定義していません。
+関数を呼び出していますが、このファイルには、
+これらの関数を定義していません。
 
 「./game.mjs」のファイルでESMモードを利用して
 エクスポートされている関数をインポートしてください。
@@ -16,9 +16,9 @@ getPlayerName、getHero、getMagicianという3個の
 
 | インポート名    | デフォルト / 通常 | 読み込み元ファイル     | 
 | --------------- | ----------------- | ---------------------- | 
-| getPlayerName | デフォルト        | ./game.mjs       | 
-| getHero       | 通常              | ./game.mjs       | 
-| getMagician   | 通常              | ./game.mjs       | 
+| getPlayerName   | デフォルト        | ./game.mjs             | 
+| getHero         | 通常              | ./game.mjs             | 
+| getMagician     | 通常              | ./game.mjs             | 
 
 実行結果
 [ 'Bob', 'Tom', 'Sam', 'Alice', 'Dorothy' ]
