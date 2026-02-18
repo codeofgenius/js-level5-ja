@@ -1,6 +1,5 @@
 // CJSでインポート
-// calc03.jsを読み込み
-// 分割代入します
+// calc03.jsを分割代入で読み込み
 const { add, minus, multiply } = require('./lib/calc03');
 
 // 関数の呼び出し

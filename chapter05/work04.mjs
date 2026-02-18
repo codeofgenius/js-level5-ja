@@ -1,5 +1,5 @@
 // ESMでインポート
-// calc04からデフォルトインポート
+// calc04.mjsからデフォルトインポート
 import add from './lib/calc04.mjs';
 
 // 関数の呼び出し

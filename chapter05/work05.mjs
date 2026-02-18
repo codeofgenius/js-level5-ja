@@ -1,7 +1,7 @@
 // ESMでインポート
-// calc05からデフォルトインポート
+// calc05.mjsからデフォルトインポート
 import add from './lib/calc05.mjs';
-// calc05から通常インポート
+// calc05.mjsから通常インポート
 import { minus, multiply } from './lib/calc05.mjs';
 
 // 関数の呼び出し
