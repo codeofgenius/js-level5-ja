@@ -13,9 +13,6 @@ const stringJson = `{
     }
 }`;
 
-// 文字列を表示
-console.log(stringJson);
-
 // JSON文字列をJavaScriptのオブジェクトに変換
 const jsObject = JSON.parse(stringJson);
 
