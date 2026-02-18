@@ -21,9 +21,9 @@
     "editor.quickSuggestions": {
         "comments": false
     },
-    "prettier.singleQuote": false,
+    "prettier.singleQuote": true,
     "prettier.printWidth": 80,
-    "prettier.semi": false,
+    "prettier.semi": true,
     "prettier.tabWidth": 4,
     "prettier.ignorePath": ".prettierignore",
     "css.lint.unknownAtRules": "ignore",
