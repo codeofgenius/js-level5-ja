@@ -6,6 +6,8 @@
         "source.fixAll.eslint": "explicit"
     },
     "files.eol": "\n",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 100,
     "eslint.runtime": "node",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnType": false,
