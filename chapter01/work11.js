@@ -29,7 +29,7 @@ Hero
 
 // 以下の関数で引数部分を追加します
 // 引数部分以外は修正してはいけません
-function showUser({ name, hp, mp, job }) {
+function showUser() {
     console.log(name);
     console.log(hp);
     console.log(mp);

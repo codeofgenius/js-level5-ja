@@ -27,11 +27,6 @@ peach
 */
 
 // 以下の部分に関数を定義します
-function showFruits(...fruits) {
-    for (const f of fruits) {
-        console.log(f);
-    }
-}
 
 // 以下の部分を修正してはいけません
 // 配列fruitsを定義しています

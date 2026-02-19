@@ -24,7 +24,6 @@
 */
 
 // 以下の部分に関数を定義します
-const getCircleArea = (r) => Math.pow(r, 2) * Math.PI;
 
 // 以下の部分を修正してはいけません
 // 関数getCircleAreaを呼び出します

@@ -24,9 +24,6 @@
 */
 
 // 以下の部分に関数を定義します
-function square(n) {
-    return Math.pow(n, 2);
-}
 
 // 以下の部分を修正してはいけません
 // 配列numbersを定義します
