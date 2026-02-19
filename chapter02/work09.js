@@ -15,12 +15,6 @@ const person = {
 person.showName('Hello');
 
 // person.showNameをshow変数に代入する
-const show = person.showName;
-
-// bindを利用してthisの値を指定する
-const hello = show.bind(person);
-// Hello, Bob
-hello('Hello');
 
 /*
 // 以下のように呼ぶと、Hello, undefinedになる

@@ -41,6 +41,3 @@ const calculate = TaxCalculator.calculate;
 // bindメソッドの戻り値を受け取り、新しい関数を作成します。
 // 作成した新しい関数を呼び出します。引数として0.1を渡します
 // 作成した新しい関数の戻り値を表示します
-const getTax = calculate.bind(TaxCalculator);
-const result = getTax(0.1);
-console.log(result);

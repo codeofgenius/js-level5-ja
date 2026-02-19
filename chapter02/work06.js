@@ -14,10 +14,3 @@ const person = {
 person.showName('Hello');
 
 // person.showNameをsay変数に代入する
-const show = person.showName;
-
-// 代入したメソッドを関数として呼ぶ
-// このshow関数はどのオブジェクトにも所属していない
-// thisはundefinedとなるためエラー
-// Hello, undefined
-show('Hello');

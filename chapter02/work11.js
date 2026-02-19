@@ -39,4 +39,3 @@ const display = player.showStatus;
 
 // 以下の部分で変数displayをcallメソッドで呼び出します
 // callメソッドでpersonオブジェクトを連結します
-display.call(player);
