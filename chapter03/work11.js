@@ -17,9 +17,5 @@ catchブロックの中で、発生したErrorオブジェクトのmessageプロ
 name is not a function
 */
 
-try {
-    const name = 'Bob';
-    name();
-} catch (error) {
-    console.log(error.message);
-}
+const name = 'Bob';
+name();

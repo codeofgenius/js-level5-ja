@@ -32,7 +32,6 @@ try {
     // 変数ageが指定された範囲外であればエラーにする
     if (age <= -1 || age >= 151) {
         // ここでエラー発生させる
-        throw new Error('age is error');
     }
     console.log(`I am ${age} years old`);
 } catch (error) {

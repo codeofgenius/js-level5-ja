@@ -22,10 +22,4 @@ doSomething is not defined
 プログラム終了
 */
 
-try {
-    doSomething();
-} catch (error) {
-    console.log(error.message);
-} finally {
-    console.log('プログラム終了');
-}
+doSomething();
