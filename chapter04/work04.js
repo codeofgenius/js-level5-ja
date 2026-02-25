@@ -14,7 +14,3 @@ const jsObject = {
 };
 
 // タブで整形した文字列を作成
-const stringJson = JSON.stringify(jsObject, null, '\t');
-
-// タブで整形した文字列を表示
-console.log(stringJson);

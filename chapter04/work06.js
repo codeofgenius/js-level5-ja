@@ -23,6 +23,3 @@ const player = {
     mp: 30,
     job: 'Magician',
 };
-
-const playerStr = JSON.stringify(player, null, '  ');
-console.log(playerStr);

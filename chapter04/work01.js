@@ -14,7 +14,3 @@ const stringJson = `{
 }`;
 
 // JSON文字列をJavaScriptのオブジェクトに変換
-const jsObject = JSON.parse(stringJson);
-
-// JavaScriptのオブジェクトを表示
-console.log(jsObject);

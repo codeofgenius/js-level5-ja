@@ -14,14 +14,3 @@ const stringJson = `{
 }`;
 
 // JSON文字列をJavaScriptのオブジェクトに変換
-const jsObject = JSON.parse(stringJson);
-
-console.log(jsObject.user1.name); // Bob
-console.log(jsObject.user1.age); // 15
-console.log(jsObject.user1.hobby[0]); // music
-console.log(jsObject.user1.hobby[1]); // tennis
-console.log(jsObject.user1.hobby[2]); // travel
-
-console.log('--------');
-
-console.log(jsObject.user2.name); // Buzz

@@ -17,9 +17,3 @@ Alice
 */
 
 const jsonString = `["Bob","Tom", "Alice"]`;
-
-const data = JSON.parse(jsonString);
-
-for (const e of data) {
-    console.log(e);
-}

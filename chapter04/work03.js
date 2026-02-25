@@ -14,7 +14,3 @@ const jsObject = {
 };
 
 // JavaScriptオブジェクトをJSON文字列に変換
-const stringJson = JSON.stringify(jsObject);
-
-// 文字列を表示
-console.log(stringJson);
