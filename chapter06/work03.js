@@ -41,5 +41,3 @@ const shoot = Tank.shoot;
 // bindメソッドでオブジェクトTankを連結します
 // bindメソッドの戻り値を受けおります。
 // bindメソッドの戻り値を関数として呼び出します。引数として3を渡します
-const fire = shoot.bind(Tank);
-fire(3);

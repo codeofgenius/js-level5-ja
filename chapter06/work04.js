@@ -19,12 +19,8 @@ catchブロックの中で、発生したErrorオブジェクトのmessageプロ
 user is not a function
 */
 
-try {
-    const user = {
-        name: 'Bob',
-        age: 17,
-    };
-    user();
-} catch (error) {
-    console.log(error.message);
-}
+const user = {
+    name: 'Bob',
+    age: 17,
+};
+user();

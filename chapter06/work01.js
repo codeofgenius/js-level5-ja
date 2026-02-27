@@ -24,7 +24,6 @@
 */
 
 // 以下の部分に関数を定義します
-const getCubeVolume = (side) => Math.pow(side, 3);
 
 // 以下の部分を修正してはいけません
 // 関数getCubeVolumeを呼び出します

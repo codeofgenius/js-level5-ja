@@ -33,8 +33,6 @@ getPlayerName、getHero、getMagicianという3個の
 */
 
 // 以下の部分でインポートを行います
-import getPlayerName from './game.mjs';
-import { getHero, getMagician } from './game.mjs';
 
 //以下の部分を修正してはいけません
 // 関数の呼び出し

@@ -36,5 +36,3 @@ const getAnswer = triangle.getArea;
 
 // 以下の部分で変数getAnswerをapplyメソッドで呼び出します
 // applyメソッドでtriangleオブジェクトを連結します
-const result = getAnswer.apply(triangle);
-console.log(result);
