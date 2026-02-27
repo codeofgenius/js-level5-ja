@@ -4,4 +4,3 @@ function add(a, b) {
 }
 
 // ESMでデフォルトエクスポート
-export default add;

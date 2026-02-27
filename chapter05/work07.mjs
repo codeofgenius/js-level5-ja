@@ -14,11 +14,11 @@ getTriangleArea、getSquare、getCircleAreaという3個の
 
 以下のようにインポートを行います。
 
-| インポート名    | デフォルト / 通常 | 読み込み元ファイル     | 
+| インポート名    | デフォルト / 名前付き | 読み込み元ファイル     | 
 | --------------- | ----------------- | ---------------------- | 
 | getTriangleArea | デフォルト        | ./lib/calc07.mjs       | 
-| getSquare       | 通常              | ./lib/calc07.mjs       | 
-| getCircleArea   | 通常              | ./lib/calc07.mjs       | 
+| getSquare       | 名前付き              | ./lib/calc07.mjs       | 
+| getCircleArea   | 名前付き              | ./lib/calc07.mjs       | 
 
 実行結果
 15
@@ -27,8 +27,6 @@ getTriangleArea、getSquare、getCircleAreaという3個の
 */
 
 // 以下の部分でインポートを行います
-import getTriangleArea from './lib/calc07.mjs';
-import { getSquare, getCircleArea } from './lib/calc07.mjs';
 
 //以下の部分を修正してはいけません
 // 関数の呼び出し

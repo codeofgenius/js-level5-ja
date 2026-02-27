@@ -4,4 +4,3 @@ function sayHello(name) {
 }
 
 // CJSでsayHelloをエクスポート
-module.exports = sayHello;

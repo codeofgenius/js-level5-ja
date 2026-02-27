@@ -12,4 +12,3 @@ function multiply(a, b) {
 }
 
 // CJSで複数をエクスポート
-module.exports = { add, minus, multiply };

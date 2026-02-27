@@ -17,5 +17,5 @@ function getCircleArea(r) {
 
 // ESMでデフォルトエクスポート
 export default getTriangleArea;
-// ESMで通常のエクスポート
+// ESMで名前付きエクスポート
 export { getSquare, getCircleArea };

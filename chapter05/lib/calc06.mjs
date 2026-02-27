@@ -10,8 +10,3 @@ function minus(a, b) {
 function multiply(a, b) {
     console.log(a * b);
 }
-
-// ESMでデフォルトエクスポート
-export default add;
-// ESMで通常のエクスポート
-export { minus, multiply };

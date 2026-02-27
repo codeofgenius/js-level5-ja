@@ -8,4 +8,3 @@ function sayHowareyou(name) {
 }
 
 // CJSで複数をエクスポート
-module.exports = { sayHello, sayHowareyou };
